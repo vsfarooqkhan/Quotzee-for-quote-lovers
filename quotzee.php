@@ -13,26 +13,35 @@
 <body bgcolor="#d0d2e2">
 
 <!-- Title for quotzee -->
-<h1 style = "color:#68010b"> QUoTZee</h1>
+
+<div class="container" style="color:#C98BB9">
+  <div class="jumbotron" style="color:#C98BB9">
+    <h1>QUoTZee</h1>
+    <p style="color:#540B0E">More than speach , a word can change the world. Post your quotes and be a star.</p>
+  </div>
+</div>	
 
 <!--Form for login and register  -->
-<form >
+<form action="login.php" >
 	<div class="container">
 	<br/>	
 
-	<button type="submit" style="height:50px;weight:150px;" onclick="location.href='login.php';" value="Login" class="btn btn-primary">Login</button>
+	<input type="submit" style="height:50px;weight:150px;" value="Login" class="btn btn-primary">
 
-
+	</div>	
 
 </form>
 
 <p>
 <!-- Link for Registration -->
-<a href = " register.php"> Not registered yet?? Click here to register. </a>
+<div class="container">
+<a href = " register.php" class="btn btn-info" role="button"> Not registered yet?? Click here to register. </a>
 </p>
+</div>
 
-
-<img src="https://www.brainyquote.com/photos_tr/en/s/samlevenson/166055/samlevenson1-2x.jpg" alt="quote"height ="300" weight="500">
-
+<div class="container">
+<img src="https://www.brainyquote.com/photos_tr/en/s/samlevenson/166055/samlevenson1-2x.jpg" alt="quote"height ="300" weight="500" class="img-thumbnail">
+</div>
 <body>
 </html>
+
