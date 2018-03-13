@@ -1,5 +1,17 @@
 <?php
 
+echo '<head>
+  <title>QUoTZee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head> ';
+
+
+
+
 $servername = "localhost:3306";
 $username = "root";
 $password = "aaaa0000";
@@ -34,12 +46,11 @@ if($numRows > 0)
 } else {	
 	
 
-	echo '<h4 style="color:blue"> Sorry . Try again. </h4>';
-	
-	echo '<h4 style="color:#063072"> <b>User name  or password incorrect</b> </h4>';
+	echo ' <div class="container"> <div class= "jumbotron">';
+	echo ' <div class="alert alert-danger"><h4 style="color:#063072"> <b>Sorry. User name  or password incorrect</b> </h4></div>';
 	echo '<br />';
-	echo '<a href="login.php">Click here to login again</a>'; 
-	echo '<br/>';
+	echo '<a href="login.php" class = "btn btn-primary btn-lg">Click here to login again</a>'; 
+	echo '<br/> </div> </div>';
 	
 	}
 
