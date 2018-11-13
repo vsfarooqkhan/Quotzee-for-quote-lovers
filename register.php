@@ -15,9 +15,9 @@
 
 
  
-	<h2 style="size:34;"> 
+	<h3 style="size:34;"> 
 	          <span class="glyphicon glyphicon-plus"></span>
-				Registration </h2>
+				Registration </h3>
 
     <p>
 	<label for="User name">User Name  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;:</label>
