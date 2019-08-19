@@ -5,7 +5,7 @@
 
 $servername = "localhost:3306";
 $username = "root";
-$password = "aaaa0000";
+$password = "*******";
 $dbname="register";
 
 
