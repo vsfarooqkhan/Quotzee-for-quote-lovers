@@ -14,7 +14,7 @@ echo '<head>
 
 $servername = "localhost:3306";
 $username = "root";
-$password = "aaaa0000";
+$password = "********";
 $dbname="register";
 
 session_start();
