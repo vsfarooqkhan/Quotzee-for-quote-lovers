@@ -4,6 +4,7 @@ Quotzee is an webapp which is developed using php and bootstrap ,. Quotzee is fu
 Make sure you installed mysql and apache server . If you can't, read this post for additional help : https://farooqkhanblog.wordpress.com/2018/02/19/how-to-install-nginx-mysql-php-on-arch-linux/
 
 
-
+For more info contact https:github.com/vsfarooqkhan
+I forked from him
 
 Will fix bugs soon. Thank you.
